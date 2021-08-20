@@ -1,0 +1,109 @@
+body {
+  background: rgb(43, 43, 43);
+  color: #fff;
+}
+ul {
+  list-style: none;
+}
+.nav {
+  background: #3b3a6f;
+}
+#meContainer {
+  position: fixed;
+  text-align: center;
+  margin-left: 10px;
+  color: black;
+  width: 400px;
+  top: 50px;
+  left: 540px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  transition: 1s;
+  z-index: 1;
+}
+#trainingContainer {
+  left: 735px;
+  top: 50px;
+  display: none;
+  position: fixed;
+  width: 200px;
+  padding: 5px 15px 15px 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+  z-index: 1;
+}
+#trainingContent {
+  margin: 10px;
+  text-align: center;
+}
+#languageContainer {
+  position: absolute;
+  left: 910px;
+  background: #fff;
+  color: black;
+  width: 210px;
+  height: 150px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 35px 10px 10px;
+  top: 50px;
+  transition: 0.5s;
+  z-index: 1;
+}
+/* #ISpeak {
+} */
+#flagList {
+  margin: 20px 0 0 -20px;
+  text-align: left;
+}
+.blackHr {
+  background-color: black;
+}
+.videoContainer {
+  margin: 30px 0px;
+  text-align: center;
+}
+h2 {
+  margin: 20px;
+}
+#info {
+  position: absolute;
+  margin-left: 10px;
+  color: rgb(97 10 49);
+  width: 270px;
+  position: absolute;
+  background-color: #8e8e8e27;
+  top: 280px;
+  right: 300px;
+  border-radius: 5px;
+}
+.delete2 {
+  position: absolute;
+  width: 10px;
+  right: -5px;
+  top: -5px;
+}
+h5 {
+  margin: 20px 0 20px 0;
+}
+#infoList {
+  list-style: none;
+  text-align: left;
+  margin: 0 20px 0 -10px;
+}
+#imgOfMe {
+  margin-top: 10px;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin-left: 100px;
+}
+.p1 {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.p2 {
+  margin-left: 25px;
+}
